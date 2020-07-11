@@ -30,6 +30,6 @@ vsDeblockPP7 (clip, float "qp", int "mode", int "y", int "u", int "v")
     Planes to process.\
     1: Return garbage.\
     2: Copy plane.\
-    3: Process plane.\
+    3: Process plane. Always process planes when the clip is RGB.\
     Default: y = 3, u = 3, v = 3.
     
