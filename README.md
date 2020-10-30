@@ -15,7 +15,7 @@ vsDeblockPP7 (clip, float "qp", int "mode", int "y", int "u", int "v")
 - clip\
     A clip to process. It must be in planar format.
     
-- mthresh\
+- qp\
     Constant quantization parameter.\
     Must be between 1.0 and 63.0.\
     Default: 2.0.
