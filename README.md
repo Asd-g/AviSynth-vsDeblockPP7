@@ -1,16 +1,22 @@
-# Description
+## Description
 
 Variant of the spp filter in MPlayer, similar to spp=6 with 7 point DCT where only the center sample is used after IDCT.
 
 This is [a port of the VapourSynth plugin DeblockPP7](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DeblockPP7).
 
-# Usage
+### Requirements:
+
+- AviSynth 2.60 / AviSynth+ 3.4 or later
+
+- Microsoft VisualC++ Redistributable Package 2022 (can be downloaded from [here](https://github.com/abbodi1406/vcredist/releases))
+
+### Usage:
 
 ```
 vsDeblockPP7 (clip, float "qp", int "mode", int "y", int "u", int "v")
 ```
 
-## Parameters:
+### Parameters:
 
 - clip\
     A clip to process. It must be in planar format.
